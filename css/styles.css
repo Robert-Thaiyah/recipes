@@ -1,12 +1,13 @@
 body{
     background-color: #f1f1f1;
+    background-image: url(../images/food.png);
 }
 
 img{
     width: 800px;
     height: auto;
     align-items: center;
-    border: 2px solid blue;
+    border: 2px solid whitesmoke;
     
 }
 h2{
@@ -25,14 +26,17 @@ h1{
     margin-right: auto;
     width: 50%;
   }
-ol, ul{
+ol, ul, li{
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: 25px;
+    
 }
 p{
     text-align: center;
+    font-size: 21px;
 }
 
 
@@ -45,6 +49,7 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin: 10px;
   }
   
   a:hover, a:active {
